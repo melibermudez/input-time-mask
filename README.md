@@ -7,10 +7,10 @@
 
 ## Installation
 
-First you need to install the npm module:
+First you need to install the npm module, after update the package.json that declare it as dependency:
 
 ```sh
-npm install after update the package.json
+npm install
 ```
 
 
