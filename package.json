@@ -1,0 +1,26 @@
+{
+  "name": "ngx-time-mask",
+  "version": "1.0.1",
+  "author": {
+    "name": "Avinash Maurya",
+    "email": "avinash.gic@gmail.com",
+    "url": "https://github.com/Aviking88"
+  },
+  "contributors": [
+    "Avinash Maurya"
+  ],
+  "description": "Angular library which helps to mask time(12hrs) using angular-directive and HTML input element ",
+  "main": "bundles/ngx-time-mask.umd.js",
+  "module": "fesm5/ngx-time-mask.js",
+  "es2015": "fesm2015/ngx-time-mask.js",
+  "esm5": "esm5/ngx-time-mask.js",
+  "esm2015": "esm2015/ngx-time-mask.js",
+  "fesm5": "fesm5/ngx-time-mask.js",
+  "fesm2015": "fesm2015/ngx-time-mask.js",
+  "typings": "ngx-time-mask.d.ts",
+  "metadata": "ngx-time-mask.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
