@@ -10,7 +10,7 @@
 First you need to install the npm module:
 
 ```sh
-npm install ngx-time-mask --save
+npm install after update the package.json
 ```
 
 
@@ -40,9 +40,9 @@ export class AppModule { }
 
 This is how you do it with the **directive**:
 ```html
-<input class="time-count" ngxTimeMask [(ngModel)]="data" (change)="onTimeChange($event)">
+<input class="time-count" ngxTimeMask [maxHour]="23" [minHour]="00" [(ngModel)]="data" (change)="onTimeChange($event)">
 ```
-And in your component define data (`12:00` by default).
+Set a max and min hour to set, by default is set from 01 to 12. And in your component define data.
 
 
 ## Contribute
@@ -50,5 +50,5 @@ And in your component define data (`12:00` by default).
 To check the demo, [click](https://stackblitz.com/edit/angular-time-directive):
 
 
-***
-MIT © [Avinash Maurya](https://github.com/aviking88)
+***Copyrigths
+MIT © [Avinash Maurya](https://www.npmjs.com/package/ngx-time-mask)
